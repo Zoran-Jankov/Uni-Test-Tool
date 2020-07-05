@@ -40,4 +40,9 @@ public class MainApplicationWindow
 	{
 		return systemInfo;
 	}
+
+	public NetworkInfoPanel getNetworkInfoPanel()
+	{
+		return networkInfo;
+	}
 }

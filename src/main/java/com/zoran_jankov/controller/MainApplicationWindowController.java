@@ -5,6 +5,6 @@ import main.java.com.zoran_jankov.gui.MainApplicationWindow;
 public class MainApplicationWindowController
 {
 	MainApplicationWindow mainWindow = new MainApplicationWindow();
-	
 	SystemInfoPanelController systemInfoPanelController = new SystemInfoPanelController(mainWindow.getSystemInfoPanel());
+	NetworkInfoPanelController networkInfoPanelController = new NetworkInfoPanelController(mainWindow.getNetworkInfoPanel());
 }
