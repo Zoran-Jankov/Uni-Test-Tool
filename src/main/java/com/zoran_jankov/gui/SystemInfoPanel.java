@@ -40,17 +40,17 @@ public class SystemInfoPanel extends JPanel
 		add(lblOperatingSystemArchitectureValue, "cell 2 3");
 	}
 	
-	public void setOperatingSystem(String property)
+	public void setOSName(String property)
 	{
 		lblOperatingSystemNameValue.setText(property);
 	}
 
-	public void setOperatingSystemVersion(String property)
+	public void setOSVersion(String property)
 	{
 		lblOperatingSystemVersionValue.setText(property);
 	}
 
-	public void setOperatingSystemArchitecture(String property)
+	public void setOSArchitecture(String property)
 	{
 		lblOperatingSystemArchitectureValue.setText(property);
 	}
