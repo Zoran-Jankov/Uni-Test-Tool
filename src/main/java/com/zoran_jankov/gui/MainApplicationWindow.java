@@ -9,6 +9,7 @@ public class MainApplicationWindow
 {
 	private JFrame frame = new JFrame("Uni Test Tool");
 	private SystemInfoPanel systemInfo= new SystemInfoPanel();
+	private NetworkInfoPanel networkInfo = new NetworkInfoPanel();
 
 	/**
 	 * Create the application.
@@ -32,6 +33,7 @@ public class MainApplicationWindow
 		frame.getContentPane().add(mainTabbedPane, "cell 0 0,grow");
 		
 		mainTabbedPane.add("System Info", systemInfo);
+		mainTabbedPane.add("Network Info", networkInfo);
 	}
 
 	public SystemInfoPanel getSystemInfoPanel()
