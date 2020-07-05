@@ -7,7 +7,7 @@ import javax.swing.JTabbedPane;
 
 public class MainApplicationWindow
 {
-	private JFrame frame = new JFrame();;
+	private JFrame frame = new JFrame("Uni Test Tool");;
 	private SystemInfoPanel systemInfo= new SystemInfoPanel();
 
 	/**
