@@ -4,7 +4,11 @@ import main.java.com.zoran_jankov.gui.MainApplicationWindow;
 
 public class MainApplicationWindowController
 {
-	MainApplicationWindow mainWindow = new MainApplicationWindow();
-	SystemInfoPanelController systemInfoPanelController = new SystemInfoPanelController(mainWindow.getSystemInfoPanel());
-	NetworkInfoPanelController networkInfoPanelController = new NetworkInfoPanelController(mainWindow.getNetworkInfoPanel());
+	private MainApplicationWindow mainWindow = new MainApplicationWindow();
+	
+	MainApplicationWindowController()
+	{
+		new SystemInfoPanelController(mainWindow.getSystemInfoPanel());
+		new NetworkInfoPanelController(mainWindow.getNetworkInfoPanel());
+	}
 }
