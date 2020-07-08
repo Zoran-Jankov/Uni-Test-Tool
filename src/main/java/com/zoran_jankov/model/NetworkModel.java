@@ -1,7 +1,6 @@
 package main.java.com.zoran_jankov.model;
 
 import java.net.InetAddress;
-import java.net.NetworkInterface;
 import java.net.UnknownHostException;
 
 public class NetworkModel
@@ -28,10 +27,6 @@ public class NetworkModel
 
 	public static String getSubnetMask()
 	{
-		InetAddress localHost = Inet4Address.getLocalHost();
-		NetworkInterface networkInterface = NetworkInterface.getByInetAddress(localHost);
-		networkInterface.getInterfaceAddresses().get(0).getNetworkPrefixLength();
-		
 		return null;
 	}
 
