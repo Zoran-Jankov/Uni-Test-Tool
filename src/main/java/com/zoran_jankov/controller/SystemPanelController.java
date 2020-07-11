@@ -1,13 +1,13 @@
 package main.java.com.zoran_jankov.controller;
 
-import main.java.com.zoran_jankov.gui.SystemInfoPanel;
+import main.java.com.zoran_jankov.gui.SystemPanel;
 import main.java.com.zoran_jankov.model.SystemModel;
 
-public class SystemInfoPanelController
+public class SystemPanelController
 {
-	private SystemInfoPanel panel;
+	private SystemPanel panel;
 	
-	SystemInfoPanelController(SystemInfoPanel panel)
+	SystemPanelController(SystemPanel panel)
 	{
 		this.panel = panel;
 		setSystemInfo();

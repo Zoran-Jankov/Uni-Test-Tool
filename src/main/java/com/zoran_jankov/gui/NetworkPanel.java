@@ -6,7 +6,7 @@ import javax.swing.JLabel;
 import java.awt.Font;
 import java.awt.Color;
 
-public class NetworkInfoPanel extends JPanel
+public class NetworkPanel extends JPanel
 {
 	private static final long serialVersionUID = -3200569870685912460L;
 	
@@ -19,7 +19,7 @@ public class NetworkInfoPanel extends JPanel
 	/**
 	 * Create the panel.
 	 */
-	public NetworkInfoPanel()
+	public NetworkPanel()
 	{
 		setLayout(new MigLayout("", "[][120px:n]", "[][][][][][]"));
 		

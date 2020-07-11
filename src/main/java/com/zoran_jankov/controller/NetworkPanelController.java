@@ -1,13 +1,13 @@
 package main.java.com.zoran_jankov.controller;
 
-import main.java.com.zoran_jankov.gui.NetworkInfoPanel;
+import main.java.com.zoran_jankov.gui.NetworkPanel;
 import main.java.com.zoran_jankov.model.NetworkModel;
 
-public class NetworkInfoPanelController
+public class NetworkPanelController
 {
-	NetworkInfoPanel panel;
+	NetworkPanel panel;
 	
-	NetworkInfoPanelController(NetworkInfoPanel panel)
+	NetworkPanelController(NetworkPanel panel)
 	{
 		this.panel = panel;
 		setNetworkInfo();

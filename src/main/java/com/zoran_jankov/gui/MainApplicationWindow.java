@@ -8,8 +8,8 @@ import javax.swing.JTabbedPane;
 public class MainApplicationWindow
 {
 	private JFrame frame = new JFrame("Uni Test Tool");
-	private SystemInfoPanel systemInfo= new SystemInfoPanel();
-	private NetworkInfoPanel networkInfo = new NetworkInfoPanel();
+	private SystemPanel systemInfo= new SystemPanel();
+	private NetworkPanel networkInfo = new NetworkPanel();
 
 	/**
 	 * Create the application.
@@ -36,12 +36,12 @@ public class MainApplicationWindow
 		mainTabbedPane.add("Network Info", networkInfo);
 	}
 
-	public SystemInfoPanel getSystemInfoPanel()
+	public SystemPanel getSystemInfoPanel()
 	{
 		return systemInfo;
 	}
 
-	public NetworkInfoPanel getNetworkInfoPanel()
+	public NetworkPanel getNetworkInfoPanel()
 	{
 		return networkInfo;
 	}

@@ -6,7 +6,7 @@ import javax.swing.JLabel;
 import java.awt.Color;
 import java.awt.Font;
 
-public class SystemInfoPanel extends JPanel
+public class SystemPanel extends JPanel
 {
 	private static final long serialVersionUID = 3371750325834534939L;
 	
@@ -17,7 +17,7 @@ public class SystemInfoPanel extends JPanel
 	/**
 	 * Create the panel.
 	 */
-	public SystemInfoPanel()
+	public SystemPanel()
 	{
 		setLayout(new MigLayout("", "[][20px:n][120px:n]", "[][][][]"));
 		
