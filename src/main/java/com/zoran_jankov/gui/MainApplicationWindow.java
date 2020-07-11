@@ -25,7 +25,7 @@ public class MainApplicationWindow
 	 */
 	private void initialize()
 	{
-		frame.setBounds(100, 100, 603, 411);
+		frame.setBounds(100, 100, 500, 500);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(new MigLayout("", "[grow]", "[grow]"));
 		
