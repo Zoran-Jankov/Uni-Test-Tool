@@ -36,9 +36,9 @@ public class HardDiskModel
 		return freeSpace;
 	}
 	
-	public long getFreeSpacePercentage(String partitionName)
+	public short getFreeSpacePercentage(String partitionName)
 	{
-		return getFreeSpace(partitionName) / getTotalSpace(partitionName) * 100;
+		return (short) (getFreeSpace(partitionName) / getTotalSpace(partitionName) * 100);
 	}
 	
 	public static String toSting(long diskSpace)
