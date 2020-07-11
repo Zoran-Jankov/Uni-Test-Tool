@@ -14,7 +14,7 @@ public class NetworkModel
 			value = InetAddress.getLocalHost().toString();
 		}
 		
-		catch (UnknownHostException e)
+		catch(UnknownHostException e)
 		{
 			e.printStackTrace();
 		}
