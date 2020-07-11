@@ -38,13 +38,12 @@ public class HardDiskUtils
 	
 	public static int getFreeSpacePercentage(String partitionName)
 	{
-		return (int) (getFreeSpace(partitionName) / getTotalSpace(partitionName) * 100);
+		return (int) (getFreeSpace(partitionName) * 100 / getTotalSpace(partitionName));
 	}
 	
 	public static int getUsedSpacePercentage(String partitionName)
 	{
-		return (int) ((getTotalSpace(partitionName) - getFreeSpace(partitionName))  
-						/ getTotalSpace(partitionName) * 100);
+		return (int) (getUsedSpace(partitionName) * 100 / getTotalSpace(partitionName));
 	}
 	
 	public static String toSting(long diskSpace)
