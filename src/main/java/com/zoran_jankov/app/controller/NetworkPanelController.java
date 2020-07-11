@@ -1,4 +1,4 @@
-package main.java.com.zoran_jankov.controller;
+package main.java.com.zoran_jankov.app.controller;
 
 import main.java.com.zoran_jankov.gui.NetworkPanel;
 import main.java.com.zoran_jankov.model.NetworkUtils;
@@ -7,7 +7,7 @@ public class NetworkPanelController
 {
 	NetworkPanel panel;
 	
-	NetworkPanelController(NetworkPanel panel)
+	public NetworkPanelController(NetworkPanel panel)
 	{
 		this.panel = panel;
 		setNetworkInfo();

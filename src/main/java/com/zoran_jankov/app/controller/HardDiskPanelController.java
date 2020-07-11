@@ -1,4 +1,4 @@
-package main.java.com.zoran_jankov.controller;
+package main.java.com.zoran_jankov.app.controller;
 
 import main.java.com.zoran_jankov.gui.HardDiskPanel;
 import main.java.com.zoran_jankov.model.HardDiskUtils;
@@ -10,7 +10,7 @@ public class HardDiskPanelController
 	private HardDiskPanel hardDiskPanel;
 	
 	
-	HardDiskPanelController(HardDiskPanel hardDiskPanel)
+	public HardDiskPanelController(HardDiskPanel hardDiskPanel)
 	{
 		this.hardDiskPanel = hardDiskPanel;
 		setCPartition();
