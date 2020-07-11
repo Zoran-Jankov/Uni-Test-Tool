@@ -10,6 +10,7 @@ public class MainApplicationWindow
 	private JFrame frame = new JFrame("Uni Test Tool");
 	private SystemPanel systemPanel= new SystemPanel();
 	private NetworkPanel networkPanel = new NetworkPanel();
+	private HardDiskPanel hardDiskPanel = new HardDiskPanel();
 
 	/**
 	 * Create the application.
@@ -34,15 +35,21 @@ public class MainApplicationWindow
 		
 		mainTabbedPane.add("System", systemPanel);
 		mainTabbedPane.add("Network", networkPanel);
+		mainTabbedPane.add("Hard Disk",hardDiskPanel);
 	}
 
-	public SystemPanel getSystemInfoPanel()
+	public SystemPanel getSystemPanel()
 	{
 		return systemPanel;
 	}
 
-	public NetworkPanel getNetworkInfoPanel()
+	public NetworkPanel getNetworkPanel()
 	{
 		return networkPanel;
+	}
+
+	public HardDiskPanel getHardDiskPanel()
+	{
+		return hardDiskPanel;
 	}
 }

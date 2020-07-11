@@ -2,13 +2,13 @@ package main.java.com.zoran_jankov.model;
 
 import java.io.File;
 
-public class HardDiskModel
+public class HardDiskUtils
 {
 	private static final int KB = 1024;
 	private static final int MB = 1048576;
 	private static final int GB = 1073741824;
 	
-	public long getTotalSpace(String partitionName)
+	public static long getTotalSpace(String partitionName)
 	{
 		File partition = new File(partitionName);
 		
@@ -17,7 +17,7 @@ public class HardDiskModel
 		return freeSpace;
 	}
 	
-	public long getFreeSpace(String partitionName)
+	public static long getFreeSpace(String partitionName)
 	{
 		
 		File partition = new File(partitionName);
@@ -27,7 +27,7 @@ public class HardDiskModel
 		return freeSpace;
 	}
 	
-	public long getUsedSpace(String partitionName)
+	public static long getUsedSpace(String partitionName)
 	{
 		File partition = new File(partitionName);
 		
@@ -36,9 +36,15 @@ public class HardDiskModel
 		return freeSpace;
 	}
 	
-	public short getFreeSpacePercentage(String partitionName)
+	public static int getFreeSpacePercentage(String partitionName)
 	{
-		return (short) (getFreeSpace(partitionName) / getTotalSpace(partitionName) * 100);
+		return (int) (getFreeSpace(partitionName) / getTotalSpace(partitionName) * 100);
+	}
+	
+	public static int getUsedSpacePercentage(String partitionName)
+	{
+		return (int) ((getTotalSpace(partitionName) - getFreeSpace(partitionName))  
+						/ getTotalSpace(partitionName) * 100);
 	}
 	
 	public static String toSting(long diskSpace)

@@ -3,7 +3,7 @@ package main.java.com.zoran_jankov.model;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 
-public class NetworkModel
+public class NetworkUtils
 {
 	public static String getIPAddress()
 	{

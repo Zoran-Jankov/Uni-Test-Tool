@@ -1,7 +1,7 @@
 package main.java.com.zoran_jankov.controller;
 
 import main.java.com.zoran_jankov.gui.NetworkPanel;
-import main.java.com.zoran_jankov.model.NetworkModel;
+import main.java.com.zoran_jankov.model.NetworkUtils;
 
 public class NetworkPanelController
 {
@@ -15,10 +15,10 @@ public class NetworkPanelController
 	
 	private void setNetworkInfo()
 	{
-		panel.setIPAddress(NetworkModel.getIPAddress());
-		panel.setSubnetMask(NetworkModel.getSubnetMask());
-		panel.setDefaultGateway(NetworkModel.getDefaultGateway());
-		panel.setPreferredDNSServer(NetworkModel.getPreferredDNSServer());
-		panel.setAlternateDNSServer(NetworkModel.getAlternateDNSServer());
+		panel.setIPAddress(NetworkUtils.getIPAddress());
+		panel.setSubnetMask(NetworkUtils.getSubnetMask());
+		panel.setDefaultGateway(NetworkUtils.getDefaultGateway());
+		panel.setPreferredDNSServer(NetworkUtils.getPreferredDNSServer());
+		panel.setAlternateDNSServer(NetworkUtils.getAlternateDNSServer());
 	}
 }

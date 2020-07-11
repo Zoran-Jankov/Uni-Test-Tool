@@ -1,6 +1,6 @@
 package main.java.com.zoran_jankov.model;
 
-public class SystemModel
+public class SystemUtils
 {
 	public static String getOSName()
 	{

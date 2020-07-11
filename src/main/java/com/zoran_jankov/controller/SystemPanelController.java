@@ -1,7 +1,7 @@
 package main.java.com.zoran_jankov.controller;
 
 import main.java.com.zoran_jankov.gui.SystemPanel;
-import main.java.com.zoran_jankov.model.SystemModel;
+import main.java.com.zoran_jankov.model.SystemUtils;
 
 public class SystemPanelController
 {
@@ -15,8 +15,8 @@ public class SystemPanelController
 	
 	private void setSystemInfo()
 	{
-		panel.setOSName(SystemModel.getOSName());
-		panel.setOSVersion(SystemModel.getOSVersion());
-		panel.setOSArchitecture(SystemModel.getOSArchitecture());
+		panel.setOSName(SystemUtils.getOSName());
+		panel.setOSVersion(SystemUtils.getOSVersion());
+		panel.setOSArchitecture(SystemUtils.getOSArchitecture());
 	}
 }

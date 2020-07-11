@@ -8,7 +8,8 @@ public class MainApplicationWindowController
 	
 	MainApplicationWindowController()
 	{
-		new SystemPanelController(mainWindow.getSystemInfoPanel());
-		new NetworkPanelController(mainWindow.getNetworkInfoPanel());
+		new SystemPanelController(mainWindow.getSystemPanel());
+		new NetworkPanelController(mainWindow.getNetworkPanel());
+		new HardDiskPanelController(mainWindow.getHardDiskPanel());
 	}
 }
