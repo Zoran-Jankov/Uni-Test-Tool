@@ -10,8 +10,6 @@ import javax.swing.SwingConstants;
 import main.java.com.zoran_jankov.app.listener.RunDiskCleanup;
 
 import javax.swing.JButton;
-import java.awt.event.ActionListener;
-import java.awt.event.ActionEvent;
 
 public class HardDiskPanel extends JPanel
 {

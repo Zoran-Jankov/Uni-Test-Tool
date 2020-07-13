@@ -5,7 +5,7 @@ import main.java.com.zoran_jankov.model.NetworkUtils;
 
 public class NetworkPanelController
 {
-	NetworkPanel panel;
+	private NetworkPanel panel;
 	
 	public NetworkPanelController(NetworkPanel panel)
 	{
