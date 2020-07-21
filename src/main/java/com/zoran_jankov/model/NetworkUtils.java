@@ -22,7 +22,7 @@ public class NetworkUtils
 		String ipAddress = value.substring(value.indexOf("/")+1);
 		ipAddress = ipAddress.trim();
 		
-		return ipAddress;
+		return value;
 	}
 
 	public static String getSubnetMask()
