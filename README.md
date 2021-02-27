@@ -1,7 +1,7 @@
 # Uni-Test-Tool
 
 [![CodeFactor](https://www.codefactor.io/repository/github/zoran-jankov/uni-test-tool/badge)](https://www.codefactor.io/repository/github/zoran-jankov/uni-test-tool)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/069f1048d01e4a9da81ad94acae01f7b)](https://www.codacy.com/manual/zoran.jankov.87/Uni-Test-Tool?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Zoran-Jankov/Uni-Test-Tool&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/a38f8c90423a4e09afd3c30250067401)](https://www.codacy.com/gh/Zoran-Jankov/Uni-Test-Tool/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Zoran-Jankov/Uni-Test-Tool&amp;utm_campaign=Badge_Grade)
 [![codebeat badge](https://codebeat.co/badges/80c82c46-aa5d-4ff4-ad18-d718470f427e)](https://codebeat.co/projects/github-com-zoran-jankov-uni-test-tool-master)
 [![BCH compliance](https://bettercodehub.com/edge/badge/Zoran-Jankov/Uni-Test-Tool?branch=master)](https://bettercodehub.com/)
 
