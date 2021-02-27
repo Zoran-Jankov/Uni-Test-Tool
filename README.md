@@ -9,6 +9,12 @@
 
 Uni Test Tool is a system testing, configuring and repair tool.
 
+## Licence
+
+[***GNU General Public License Version 3***](https://www.gnu.org/licenses/gpl-3.0)
+
+[![License: GPL v3](https://www.gnu.org/graphics/gplv3-127x51.png)](https://www.gnu.org/licenses/gpl-3.0)
+
 ## Credits
 
 ### Author
